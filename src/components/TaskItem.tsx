@@ -4,7 +4,7 @@ import { Task } from '../types/Task';
 import { useDispatch } from 'react-redux';
 import { deleteTask, toggleTask } from '../redux/tasksSlice';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { spacing, CARD_SHADOW } from '../theme/constants';
+import { spacing } from '../theme/constants';
 
 const TaskItem = ({ task }: { task: Task }) => {
   const dispatch = useDispatch();

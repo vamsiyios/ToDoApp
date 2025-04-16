@@ -43,7 +43,7 @@ const Header = () => {
 const styles = StyleSheet.create({
   container: {
     padding: spacing.md,
-    borderRadius: spacing.sm,
+    borderRadius: spacing.md,
     marginBottom: spacing.md,
   },
   row: {

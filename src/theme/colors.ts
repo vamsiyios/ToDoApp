@@ -12,7 +12,7 @@ export const getColors = (theme: 'light' | 'dark') => {
       text: '#000000',
       background: '#ffffff',
       inputBackground: '#fffacd',
-      card: '#FFAE42',
+      card: '#B8BC86',
       secondaryText: '#666666',
     };
   }
