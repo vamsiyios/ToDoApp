@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    fontSize: 25,
+    fontSize: 22,
   },
   addButton: {
     backgroundColor: '#2563eb',
