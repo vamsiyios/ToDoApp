@@ -1,5 +1,5 @@
 {
-  "name": "AwesomeProject",
+  "name": "todoapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,11 +7,18 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "node ./scripts/link-vector-fonts.js"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/datetimepicker": "^8.3.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "deprecated-react-native-prop-types": "^5.0.0",
     "react": "18.3.1",
-    "react-native": "0.77.0"
+    "react-native": "0.77.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -26,6 +33,7 @@
     "@react-native/typescript-config": "0.77.0",
     "@types/jest": "^29.5.13",
     "@types/react": "^18.2.6",
+    "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^18.0.0",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
